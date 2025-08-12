@@ -12,31 +12,23 @@ Este projeto foi desenvolvido durante a [Imersão Dados com Python da Alura]. El
 ## 🚀 Como executar
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/dashboard-salarios.git
-   cd dashboard-salarios
-Crie um ambiente virtual:
-
-bash
+2. Crie um ambiente virtual:
 python -m venv .venv
-Ative o ambiente virtual:
+
+3. Ative o ambiente virtual:
 
 Windows:
-
-bash
 .\.venv\Scripts\activate
+
 Mac/Linux:
-
-bash
 source .venv/bin/activate
-Instale as dependências:
 
-bash
+4. Instale as dependências:
 pip install -r requirements.txt
-Execute o dashboard:
 
-bash
+5. Execute o dashboard:
 streamlit run app.py
+
 📁 Dados
 Os dados utilizados estão disponíveis em:
 dados-imersao-final.csv
