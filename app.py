@@ -13,7 +13,7 @@ def configurar_pagina():
 # --- Carregamento dos dados ---
 @st.cache_data
 def carregar_dados():
-    df = df = pd.read_csv("dados/dados-imersao-final.csv")
+    df = df = pd.read_csv("dados-imersao-final.csv")
 
     return df
 
@@ -126,3 +126,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
